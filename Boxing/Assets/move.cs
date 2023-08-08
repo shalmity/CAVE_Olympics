@@ -2,61 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move : MonoBehaviour
+public class Move : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed = 5.0f;
+
+    private CharacterController controller;
+
+    private void Start()
     {
-        
+        controller = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        float moveZ = 0f;
+        MovePlayer();
+    }
 
-        float moveX = 0f;
+    private void MovePlayer()
+    {
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-        if (Input.GetKey(KeyCode.W))
+        Vector3 moveDirection = transform.forward * verticalInput + transform.right * horizontalInput;
+        Vector3 moveVelocity = moveDirection.normalized * speed;
 
-        {
+        // 캐릭터 컨트롤러에 중력 적용
+        moveVelocity.y = Physics.gravity.y;
 
-            moveZ += 0.2f;
-
-        }
-
-
-
-        if (Input.GetKey(KeyCode.S))
-
-        {
-
-            moveZ -= 0.2f;
-
-        }
-
-
-
-        if (Input.GetKey(KeyCode.A))
-
-        {
-
-            moveX -= 0.2f;
-
-        }
-
-
-
-        if (Input.GetKey(KeyCode.D))
-
-        {
-
-            moveX += 0.2f;
-
-        }
-
-
-
-        transform.Translate(new Vector3(moveX, 0f, moveZ) * 0.1f);
+        // 충돌 처리와 이동 적용
+        controller.Move(moveVelocity * Time.deltaTime);
     }
 }
