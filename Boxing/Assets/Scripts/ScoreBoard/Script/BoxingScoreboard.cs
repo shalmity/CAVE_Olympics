@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 
 public class BoxingScoreboard : MonoBehaviour
@@ -6,32 +8,35 @@ public class BoxingScoreboard : MonoBehaviour
     private int PlayerScore = 0;
     private int EnemyScore = 0;
 
-    public TextMeshProUGUI PlayerScoreText;
-    public TextMeshProUGUI EnemyScoreText;
+    public List<TextMeshProUGUI> PlayerScoreText;
+    public List<TextMeshProUGUI> EnemyScoreText;
 
     private void Start()
     {
+        PlayerScoreText.Add(GameObject.Find("PlayerScore").GetComponent<TextMeshProUGUI>());
+        PlayerScoreText.Add(GameObject.Find("PlayerScore2").GetComponent<TextMeshProUGUI>());
+        EnemyScoreText.Add(GameObject.Find("EnemyScore").GetComponent<TextMeshProUGUI>());
+        EnemyScoreText.Add(GameObject.Find("EnemyScore2").GetComponent<TextMeshProUGUI>());
         UpdateScoreboard();
     }
 
-    // 플레이어가 적 객체를 공격할 때 호출되는 함수
     public void PlayerAttackedEnemy()
     {
         PlayerScore++;
         UpdateScoreboard();
     }
 
-    // 적 객체가 플레이어를 공격할 때 호출되는 함수
     public void EnemyAttackedPlayer()
     {
         EnemyScore++;
         UpdateScoreboard();
     }
 
-    // 점수판 UI 업데이트
     private void UpdateScoreboard()
     {
-        PlayerScoreText.text = "" + PlayerScore;
-        EnemyScoreText.text = "" + EnemyScore;
+        PlayerScoreText[0].text = "" + PlayerScore;
+        PlayerScoreText[1].text = "" + PlayerScore;
+        EnemyScoreText[0].text = "" + EnemyScore;
+        EnemyScoreText[1].text = "" + EnemyScore;
     }
 }

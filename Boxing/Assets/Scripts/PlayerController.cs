@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            animator.SetBool("IsLeadJab", false);
+            //animator.SetBool("IsLeadJab", false);
         }
     }
 }
