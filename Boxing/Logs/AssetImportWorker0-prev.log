@@ -15,7 +15,7 @@ C:/Users/User/Documents/GitHub/CAVE_Olympics/Boxing
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61128
+62358
 Successfully changed project path to: C:/Users/User/Documents/GitHub/CAVE_Olympics/Boxing
 C:/Users/User/Documents/GitHub/CAVE_Olympics/Boxing
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/User/Documents/GitHub/CAVE_Olympics/Boxing
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29480] Host "[IP] 192.168.0.197 [Port] 0 [Flags] 2 [Guid] 137086285 [EditorId] 137086285 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6A032FR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22024] Host "[IP] 192.168.0.197 [Port] 0 [Flags] 2 [Guid] 1317035996 [EditorId] 1317035996 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6A032FR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29480] Host "[IP] 192.168.0.197 [Port] 0 [Flags] 2 [Guid] 137086285 [EditorId] 137086285 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6A032FR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22024] Host "[IP] 192.168.0.197 [Port] 0 [Flags] 2 [Guid] 1317035996 [EditorId] 1317035996 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6A032FR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 154.78 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 1.08 ms.
+Refreshing native plugins compatible for Editor in 136.32 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.78 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/CAVE_Olympics/Boxing/Assets
@@ -68,55 +68,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019657 seconds.
+Registered in 0.013554 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 377 ms
-Refreshing native plugins compatible for Editor in 95.17 ms, found 8 plugins.
+Android Extension - Scanning For ADB Devices 353 ms
+Refreshing native plugins compatible for Editor in 94.77 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.066 seconds
+- Completed reload, in  1.123 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1067ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (1123ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (826ms)
-			LoadAssemblies (124ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (653ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (641ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (434ms)
+				InitializePlatformSupportModulesInManaged (418ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (95ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015091 seconds.
+Registered in 0.125577 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\CAVE_Olympics\Boxing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\CAVE_Olympics\Boxing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -124,30 +124,30 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.86.1
 Mono: successfully reloaded assembly
-- Completed reload, in  1.290 seconds
+- Completed reload, in  1.538 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1291ms)
-		BeginReloadAssembly (198ms)
+	ReloadAssembly (1539ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (983ms)
-			LoadAssemblies (215ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1238ms)
+			LoadAssemblies (209ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (347ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (461ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (588ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (292ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (383ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (14ms)
@@ -155,13 +155,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 5001 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (142.7 KB). Loaded Objects now: 5440.
-Memory consumption went from 185.9 MB to 185.8 MB.
-Total: 2.941000 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.183000 ms MarkObjects: 2.332500 ms  DeleteObjects: 0.130100 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5009 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (150.5 KB). Loaded Objects now: 5449.
+Memory consumption went from 186.3 MB to 186.2 MB.
+Total: 2.900200 ms (FindLiveObjects: 0.288100 ms CreateObjectMapping: 0.193800 ms MarkObjects: 2.276400 ms  DeleteObjects: 0.141100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,34 +176,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2770498.401912 seconds.
-  path: Assets/screen.png
-  artifactKey: Guid(44c55da97a928eb43935b0dd32739e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/screen.png using Guid(44c55da97a928eb43935b0dd32739e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d43f712d61927e660f71984a80c42df') in 0.069572 seconds 
+  Time since last request: 2772429.694386 seconds.
+  path: Assets/Boxing Ring Large/materials/gym_wooden_01.mat
+  artifactKey: Guid(07dbf6bfe46a67e499c6e04f8914e72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boxing Ring Large/materials/gym_wooden_01.mat using Guid(07dbf6bfe46a67e499c6e04f8914e72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b600c5893bbc20c21e627a3a7688ca1c') in 0.608411 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/White.mat
-  artifactKey: Guid(a3fa071b6bf3e994bb7390570951d050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/White.mat using Guid(a3fa071b6bf3e994bb7390570951d050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20fad135cc4225bf34dd3b40fbaad00') in 0.237571 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/Boxing Ring Large/materials/logo.mat
+  artifactKey: Guid(778150e24d8e2804b89fc28eeb52f57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boxing Ring Large/materials/logo.mat using Guid(778150e24d8e2804b89fc28eeb52f57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5072ac144cff428862b81a9e2ca0dcd7') in 0.322717 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/indigo.mat
-  artifactKey: Guid(fb29ebdc88a635d46a25f33803ef5a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/indigo.mat using Guid(fb29ebdc88a635d46a25f33803ef5a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cd4e6266734118d36c291434644a7c') in 0.008289 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Boxing Ring Large/prefabs/boxing_ring_large_stepladder.prefab
+  artifactKey: Guid(66742468bfa0223448e20de25df1b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boxing Ring Large/prefabs/boxing_ring_large_stepladder.prefab using Guid(66742468bfa0223448e20de25df1b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4c2e9f4a3e31c8acd5dcf0f6253b7f') in 0.200630 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.056926 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Default_Floor3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(ddb188fc15a8c4446b307f6560a072ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Default_Floor3d3aba195e4d26ee.terrainlayer using Guid(ddb188fc15a8c4446b307f6560a072ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c0799c51ff432eaa5f20bb1a00b717') in 0.014185 seconds 
+  Time since last request: 0.008239 seconds.
+  path: Assets/Boxing Ring Large/materials/rubber_mat_03.mat
+  artifactKey: Guid(da6b051d8b32d7744af546f84a7128ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boxing Ring Large/materials/rubber_mat_03.mat using Guid(da6b051d8b32d7744af546f84a7128ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfb323d75e7a3741f7af654ca69db6a') in 0.134802 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.328142 seconds.
-  path: Assets/Resources/ONSPSettings.asset
-  artifactKey: Guid(a6fbf30b57753d84facecb2da9e8cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ONSPSettings.asset using Guid(a6fbf30b57753d84facecb2da9e8cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6da3bb62b76bcd83970abc60892694') in 0.007210 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Boxing Ring Large/meshes/boxing_ring_large.fbx
+  artifactKey: Guid(f86a57480dec3ac489161aa40bbd014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boxing Ring Large/meshes/boxing_ring_large.fbx using Guid(f86a57480dec3ac489161aa40bbd014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5214f1278c57c37643a34b45efc617a0') in 0.282581 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
