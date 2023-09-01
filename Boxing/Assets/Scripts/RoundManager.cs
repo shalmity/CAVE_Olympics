@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class RoundManager : MonoBehaviour
+public class RoundManager : MonoBehaviourPunCallbacks, IPunObservable
 {
     public int roundLv;
     private int p1Win;
@@ -13,6 +14,8 @@ public class RoundManager : MonoBehaviour
     
     public bool isRound;
     public float roundTime;
+    public Timer timer;
+    public bool isPlayer;
 
     void Start()
     {
@@ -23,31 +26,50 @@ public class RoundManager : MonoBehaviour
         p2Win = 0;
         restTime = 10f;
         maxRestTime = 0f;
-        roundLv = 1;
-        isRound = true;
+        roundLv = 0;
+        isRound = false;
+        isPlayer = false;
+        timer = GameObject.Find("Time").GetComponent<Timer>();
+    }
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) {
+        if(stream.IsWriting)
+        {
+            stream.SendNext(roundTime);
+            stream.SendNext(roundLv);
+            stream.SendNext(restTime);
+        }
+        else
+        {
+            roundTime = (float)stream.ReceiveNext();
+            roundLv = (int)stream.ReceiveNext();
+            restTime = (float)stream.ReceiveNext();
+        }
     }
 
     void Update()
     {
-        if(isRound)
+        if(isPlayer)
         {
-            //players movement on
-            roundTime -= Time.deltaTime;
-            if(roundTime <= minTime)
+            if(isRound)
             {
-                roundTime = 60f;
-                isRound = false;
+                //players movement on
+                roundTime -= Time.deltaTime;
+                if(roundTime <= minTime)
+                {
+                    roundTime = 60f;
+                    isRound = false;
+                }
             }
-        }
-        else
-        {
-            //players movement off
-            restTime -= Time.deltaTime;
-            if(restTime <= maxRestTime)
+            else
             {
-                roundLv++;
-                isRound = true;
-                restTime = 0;
+                //players movement off
+                restTime -= Time.deltaTime;
+                if(restTime <= maxRestTime)
+                {
+                    roundLv++;
+                    isRound = true;
+                    restTime = 0;
+                }
             }
         }
     }

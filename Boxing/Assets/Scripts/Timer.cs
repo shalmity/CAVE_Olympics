@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
     private RoundManager roundManager;
     public TMP_Text text;
-    private int time;
+    public int time;
     void Start()
     {
         roundManager = GameObject.Find("RoundManager").GetComponent<RoundManager>();
