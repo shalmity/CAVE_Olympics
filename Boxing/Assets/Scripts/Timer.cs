@@ -18,12 +18,7 @@ public class Timer : MonoBehaviour
         if(roundManager.GetComponent<RoundManager>().isRound)
         {
             time = (int)roundManager.GetComponent<RoundManager>().roundTime;
-            text.text = "Round " + roundManager.GetComponent<RoundManager>().roundLv.ToString() + " " + time.ToString();
-        }
-        else
-        {
-            time = (int)roundManager.GetComponent<RoundManager>().restTime;
-            text.text = "Rest " + roundManager.GetComponent<RoundManager>().roundLv.ToString() + " " + time.ToString();
+            text.text = time.ToString();
         }
     }
 }

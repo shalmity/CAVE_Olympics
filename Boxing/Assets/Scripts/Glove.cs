@@ -16,13 +16,12 @@ public class Glove : MonoBehaviour
     {
         Rigidbody other = collision.collider.attachedRigidbody;
 
-        if (other != null && other.GetComponent<Collider>().tag == "Player")
+        if (other != null && other.GetComponent<Collider>().tag == "Dummy")
         {
             Vector3 pushDirection = collision.contacts[0].point - transform.position;
             pushDirection.y = 0f;
 
             other.AddForce(pushDirection.normalized * pushForce, ForceMode.Impulse);
-            board.PlayerAttackedEnemy();
         }
     }
 }

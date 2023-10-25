@@ -5,18 +5,16 @@ using TMPro;
 
 public class BoxingScoreboard : MonoBehaviour
 {
-    private int PlayerScore = 0;
-    private int EnemyScore = 0;
-
+    public int PlayerScore = 0;
     public List<TextMeshProUGUI> PlayerScoreText;
-    public List<TextMeshProUGUI> EnemyScoreText;
+    public List<TextMeshProUGUI> timeText;
 
     private void Start()
     {
         PlayerScoreText.Add(GameObject.Find("PlayerScore").GetComponent<TextMeshProUGUI>());
         PlayerScoreText.Add(GameObject.Find("PlayerScore2").GetComponent<TextMeshProUGUI>());
-        EnemyScoreText.Add(GameObject.Find("EnemyScore").GetComponent<TextMeshProUGUI>());
-        EnemyScoreText.Add(GameObject.Find("EnemyScore2").GetComponent<TextMeshProUGUI>());
+        timeText.Add(GameObject.Find("Time").GetComponent<TextMeshProUGUI>());
+        timeText.Add(GameObject.Find("Time2").GetComponent<TextMeshProUGUI>());
         UpdateScoreboard();
     }
 
@@ -28,7 +26,7 @@ public class BoxingScoreboard : MonoBehaviour
 
     public void EnemyAttackedPlayer()
     {
-        EnemyScore++;
+        PlayerScore--;
         UpdateScoreboard();
     }
 
@@ -36,7 +34,5 @@ public class BoxingScoreboard : MonoBehaviour
     {
         PlayerScoreText[0].text = "" + PlayerScore;
         PlayerScoreText[1].text = "" + PlayerScore;
-        EnemyScoreText[0].text = "" + EnemyScore;
-        EnemyScoreText[1].text = "" + EnemyScore;
     }
 }
