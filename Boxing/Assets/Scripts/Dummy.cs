@@ -16,8 +16,11 @@ public class Dummy : MonoBehaviour
     private int hp;
     private BoxingScoreboard board;
     private SummonDummy summonDummy;
-    private bool isHit;
-    private float cool;
+    public bool isHit;
+    public float cool;
+    private AudioSource audioSource;
+    private AudioClip audioClip;
+
 
     void Start()
     {
@@ -33,6 +36,8 @@ public class Dummy : MonoBehaviour
         hp = 3;
         cool = 0f;
         isHit = false;
+        audioSource = GetComponent<AudioSource>();
+        audioClip = Resources.Load<AudioClip>("Punch");
     }
 
     // Update is called once per frame
@@ -68,19 +73,21 @@ public class Dummy : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
+
         if (col.tag == "Glove" && isHit == false)
         {
-            //¿©±â´Ù°¡ Å¸°ÝÀ½ ³Ö¾îÁÖ¼¼¿ä! put sound effect
+            //ï¿½ï¿½ï¿½ï¿½Ù°ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½! put sound effect
             hp--;
             anim.SetTrigger("Damage");
             isHit = true;
             if (hp <= 0)
             {
-                //score »ó½Â, destroy
+                //score ï¿½ï¿½ï¿½, destroy
                 board.PlayerAttackedEnemy();
                 summonDummy.isDummy = false;
                 GameObject.Destroy(this.gameObject);
             }
+
         }
     }
     

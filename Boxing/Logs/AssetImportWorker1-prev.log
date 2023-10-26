@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16158 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/User/OneDrive/문서/GitHub/CAVE_Olympics/Boxing
+C:/Users/mingi/OneDrive/문서/GitHub/CAVE_Olympics/Boxing
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60375
-Successfully changed project path to: C:/Users/User/OneDrive/문서/GitHub/CAVE_Olympics/Boxing
-C:/Users/User/OneDrive/문서/GitHub/CAVE_Olympics/Boxing
+50686
+Successfully changed project path to: C:/Users/mingi/OneDrive/문서/GitHub/CAVE_Olympics/Boxing
+C:/Users/mingi/OneDrive/문서/GitHub/CAVE_Olympics/Boxing
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,76 +47,76 @@ C:/Users/User/OneDrive/문서/GitHub/CAVE_Olympics/Boxing
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9132] Host "[IP] 172.16.17.135 [Port] 0 [Flags] 2 [Guid] 745360860 [EditorId] 745360860 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8N3IBEB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [51092] Host "[IP] 116.121.42.251 [Port] 0 [Flags] 2 [Guid] 3184153272 [EditorId] 3184153272 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R93J80P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9132] Host "[IP] 172.16.17.135 [Port] 0 [Flags] 2 [Guid] 745360860 [EditorId] 745360860 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8N3IBEB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [51092] Host "[IP] 116.121.42.251 [Port] 0 [Flags] 2 [Guid] 3184153272 [EditorId] 3184153272 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R93J80P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 118.25 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.56 ms.
+Refreshing native plugins compatible for Editor in 130.08 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/OneDrive/문서/GitHub/CAVE_Olympics/Boxing/Assets
+[Subsystems] Discovering subsystems at path C:/Users/mingi/OneDrive/문서/GitHub/CAVE_Olympics/Boxing/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
     Vendor:   NVIDIA
-    VRAM:     12129 MB
-    Driver:   31.0.15.3623
+    VRAM:     8031 MB
+    Driver:   31.0.15.3758
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017319 seconds.
+Registered in 0.006088 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 206 ms
-Refreshing native plugins compatible for Editor in 94.25 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Android Extension - Scanning For ADB Devices 353 ms
+Refreshing native plugins compatible for Editor in 116.12 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
+- Completed reload, in  1.028 seconds
 Domain Reload Profiling:
-	ReloadAssembly (845ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (642ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (101ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (464ms)
+			SetupLoadedEditorAssemblies (669ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (266ms)
+				InitializePlatformSupportModulesInManaged (414ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (116ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010896 seconds.
+Registered in 0.014535 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\문서\GitHub\CAVE_Olympics\Boxing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\문서\GitHub\CAVE_Olympics\Boxing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mingi\OneDrive\문서\GitHub\CAVE_Olympics\Boxing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mingi\OneDrive\문서\GitHub\CAVE_Olympics\Boxing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -124,128 +124,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.86.1
 Mono: successfully reloaded assembly
-- Completed reload, in  1.206 seconds
+- Completed reload, in  1.472 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1207ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1473ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (962ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1204ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (502ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (340ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 5085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (155.1 KB). Loaded Objects now: 5529.
-Memory consumption went from 192.1 MB to 191.9 MB.
-Total: 2.655300 ms (FindLiveObjects: 0.288100 ms CreateObjectMapping: 0.168900 ms MarkObjects: 2.059800 ms  DeleteObjects: 0.137500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8972.821548 seconds.
-  path: Assets/Prefabs/BoxUnityChan (2).prefab
-  artifactKey: Guid(1b4712f2609029842b8007e25fbf79f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BoxUnityChan (2).prefab using Guid(1b4712f2609029842b8007e25fbf79f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe3a1fed6e14eea9306fa5a813cfca7') in 0.149428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.748623 seconds.
-  path: Assets/XR/Loaders/Oculus Loader.asset
-  artifactKey: Guid(ff7571b61dceafe45a9d2d5f9b683f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(ff7571b61dceafe45a9d2d5f9b683f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c621dcec286081de3da9ff311dda891') in 0.003680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.283768 seconds.
-  path: Assets/XR/Settings/Oculus Settings.asset
-  artifactKey: Guid(5aca75b7346fd9b44b233d23e315b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(5aca75b7346fd9b44b233d23e315b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e766233cbc532a5de47ac4193e789a') in 0.003364 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015618 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\문서\GitHub\CAVE_Olympics\Boxing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\문서\GitHub\CAVE_Olympics\Boxing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (203ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (776ms)
-			LoadAssemblies (168ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (416ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (544ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 10.97 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 4959 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (130.5 KB). Loaded Objects now: 5540.
-Memory consumption went from 185.3 MB to 185.1 MB.
-Total: 2.520700 ms (FindLiveObjects: 0.260700 ms CreateObjectMapping: 0.155500 ms MarkObjects: 1.987400 ms  DeleteObjects: 0.115600 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 5084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (154.8 KB). Loaded Objects now: 5528.
+Memory consumption went from 191.9 MB to 191.7 MB.
+Total: 6.526600 ms (FindLiveObjects: 0.668500 ms CreateObjectMapping: 0.236600 ms MarkObjects: 5.430800 ms  DeleteObjects: 0.189600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -259,7 +175,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.126872 seconds.
-  path: Assets/Scripts/ScoreBoard/Script/BoxingScoreboard.cs
-  artifactKey: Guid(f00e3d1298a086c4cb1711275304b80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScoreBoard/Script/BoxingScoreboard.cs using Guid(f00e3d1298a086c4cb1711275304b80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98a76940fbc2fd505a121aa2bb96bb3') in 0.012675 seconds 
+  Time since last request: 770845.867847 seconds.
+  path: Assets/Resources/OVRPlatformToolSettings.asset
+  artifactKey: Guid(171afa718e5821e4483138911753ba5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(171afa718e5821e4483138911753ba5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b035b6c54b9bc616ecb97c7339c92e') in 0.066345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_asphalt3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(75e18dcbe864b2d41917668676e3e628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_asphalt3d3aba195e4d26ee.terrainlayer using Guid(75e18dcbe864b2d41917668676e3e628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845fec8f43f3c9edcff4649bc23ff81c') in 0.047566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_snow3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(793b9d99e6eb6d847aa316b72645e28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_snow3d3aba195e4d26ee.terrainlayer using Guid(793b9d99e6eb6d847aa316b72645e28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6d44fec9db418bec6e72a42762c3d0') in 0.015136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/PlayerCapsule 1.prefab
+  artifactKey: Guid(ac04facd8109d2f418d504edbfbeabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PlayerCapsule 1.prefab using Guid(ac04facd8109d2f418d504edbfbeabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e5748daee18fce95a2f4b82125b6c4') in 0.088306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Default_Floor3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(ddb188fc15a8c4446b307f6560a072ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Default_Floor3d3aba195e4d26ee.terrainlayer using Guid(ddb188fc15a8c4446b307f6560a072ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826871dfb643e94b96e19e32d9b81e2e') in 0.015772 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
