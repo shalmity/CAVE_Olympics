@@ -7,32 +7,26 @@ public class ChangeScene : MonoBehaviour
 {
     void Update()
     {
-        
-    }
-
-    public void MoveMain()
-    {
-        // 아무 키나 누르면 Main 씬으로 넘어가기
-        if (Input.anyKeyDown)
+        if (OVRInput.GetDown(OVRInput.RawButton.B))
         {
             SceneManager.LoadScene("Main");
         }
         if (OVRInput.GetDown(OVRInput.RawButton.A))
         {
-            SceneManager.LoadScene("Main");
+            SceneManager.LoadScene("Start");
         }
     }
 
-    public void Restart()
+    public void ToMain()
     {
-        // 아무 키나 누르면 Main 씬으로 넘어가기
-        if (Input.anyKeyDown)
-        {
-            SceneManager.LoadScene("Main");
-        }
-        if (OVRInput.GetDown(OVRInput.RawButton.B))
-        {
-            SceneManager.LoadScene("Main");
-        }
+        SceneManager.LoadScene("Main");
     }
+
+    public void ToStart()
+    {
+       
+        SceneManager.LoadScene("Start");
+        
+    }
+    
 }

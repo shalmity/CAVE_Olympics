@@ -1236,6 +1236,7 @@ m_ResolvedPackages:
     - 4.2.6
     - 4.2.7
     - 4.2.8
+    - 4.2.9
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -1262,6 +1263,7 @@ m_ResolvedPackages:
     compatible:
     - 4.2.7
     - 4.2.8
+    - 4.2.9
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -1284,7 +1286,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.9
     - 5.1.0-pre.10
     - 5.1.0
-    verified: 4.2.8
+    verified: 4.2.9
   dependencies:
   - name: com.unity.xr.arsubsystems
     version: 4.2.8
@@ -3960,17 +3962,25 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Provides internal registration mechanism for standalone subsystems. 
     It allows a standalone subsystem to inform the Subsystem Manager of its existence.
   status: 0
   errors: []
   versions:
     all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
     - 1.1.0
+    - 1.1.1
+    - 1.1.2
     compatible:
     - 1.1.0
-    verified: 1.1.0
+    - 1.1.1
+    - 1.1.2
+    verified: 1.1.2
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -3991,9 +4001,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637314426150000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4018,16 +4028,25 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   status: 0
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     compatible:
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     verified: 1.0.3
   dependencies: []
   resolvedDependencies: []
@@ -4042,12 +4061,12 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637300096300000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
     revision: 473664ccba1496294b741cf169740a5d54b3d0b6
     path: 
   unityLifecycle:
